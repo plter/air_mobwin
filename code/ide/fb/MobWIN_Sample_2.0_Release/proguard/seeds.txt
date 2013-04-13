@@ -1,0 +1,55 @@
+com.tencent.exmobwin.MobWINManager
+com.tencent.exmobwin.MobWINManager: MobWINManager()
+com.tencent.exmobwin.MobWINManager: void init(android.content.Context,int[])
+com.tencent.exmobwin.MobWINManager: void init(android.content.Context,java.lang.String,java.lang.String,java.lang.String,int[])
+com.tencent.exmobwin.MobWINManager: void destroy()
+com.tencent.exmobwin.Type
+com.tencent.exmobwin.Type: int MOBWIN_BANNER
+com.tencent.exmobwin.Type: int MOBWIN_SPOT
+com.tencent.exmobwin.Type: int MOBWIN_INTEGRALWALL
+com.tencent.exmobwin.Type: int MOBWIN_MINIBANNER
+com.tencent.exmobwin.Type: Type()
+com.tencent.exmobwin.banner.AdListener
+com.tencent.exmobwin.banner.AdListener: int ERROR_CONNECTION_FAILED
+com.tencent.exmobwin.banner.AdListener: int ERROR_NO_AVAILABLE_ADS
+com.tencent.exmobwin.banner.AdListener: int ERROR_GIF_DECODE_FAILED
+com.tencent.exmobwin.banner.AdListener: int ERROR_GET_IMAGE_FAILED
+com.tencent.exmobwin.banner.AdListener: int ERROR_SERVER_DATA_EXCEPTION
+com.tencent.exmobwin.banner.AdListener: void onReceiveAd()
+com.tencent.exmobwin.banner.AdListener: void onReceiveFailed(int)
+com.tencent.exmobwin.banner.DialogActivity
+com.tencent.exmobwin.banner.DialogActivity: DialogActivity()
+com.tencent.exmobwin.banner.DialogActivity: void onCreate(android.os.Bundle)
+com.tencent.exmobwin.banner.DialogActivity: void onStart()
+com.tencent.exmobwin.banner.DialogActivity: void onRestart()
+com.tencent.exmobwin.banner.DialogActivity: void onResume()
+com.tencent.exmobwin.banner.DialogActivity: void onPause()
+com.tencent.exmobwin.banner.DialogActivity: void onStop()
+com.tencent.exmobwin.banner.DialogActivity: void onConfigurationChanged(android.content.res.Configuration)
+com.tencent.exmobwin.banner.DialogActivity: boolean onKeyUp(int,android.view.KeyEvent)
+com.tencent.exmobwin.banner.DialogActivity: void onSaveInstanceState(android.os.Bundle)
+com.tencent.exmobwin.banner.DialogActivity: void onDestroy()
+com.tencent.exmobwin.banner.DialogActivity: boolean onKeyDown(int,android.view.KeyEvent)
+com.tencent.exmobwin.banner.MobWINBrowserActivity
+com.tencent.exmobwin.banner.MobWINBrowserActivity: MobWINBrowserActivity()
+com.tencent.exmobwin.banner.MobWINBrowserActivity: void onCreate(android.os.Bundle)
+com.tencent.exmobwin.banner.MobWINBrowserActivity: void onStart()
+com.tencent.exmobwin.banner.MobWINBrowserActivity: void onRestart()
+com.tencent.exmobwin.banner.MobWINBrowserActivity: void onResume()
+com.tencent.exmobwin.banner.MobWINBrowserActivity: void onPause()
+com.tencent.exmobwin.banner.MobWINBrowserActivity: void onStop()
+com.tencent.exmobwin.banner.MobWINBrowserActivity: void onConfigurationChanged(android.content.res.Configuration)
+com.tencent.exmobwin.banner.MobWINBrowserActivity: boolean onKeyUp(int,android.view.KeyEvent)
+com.tencent.exmobwin.banner.MobWINBrowserActivity: void onSaveInstanceState(android.os.Bundle)
+com.tencent.exmobwin.banner.MobWINBrowserActivity: void onDestroy()
+com.tencent.exmobwin.banner.MobWINBrowserActivity: boolean onKeyDown(int,android.view.KeyEvent)
+com.tencent.exmobwin.banner.TAdView
+com.tencent.exmobwin.banner.TAdView: java.lang.String TAG
+com.tencent.exmobwin.banner.TAdView: int CREATE_ADVIEW
+com.tencent.exmobwin.banner.TAdView: TAdView(android.app.Activity)
+com.tencent.exmobwin.banner.TAdView: TAdView(android.content.Context,android.util.AttributeSet)
+com.tencent.exmobwin.banner.TAdView: void setAdListener(com.tencent.exmobwin.banner.AdListener)
+com.tencent.mobwin.plugin.Codelayout
+com.tencent.mobwin.plugin.Main
+com.tencent.mobwin.plugin.Suslayout
+com.tencent.mobwin.plugin.Xmlayout

@@ -1,0 +1,22 @@
+# view AndroidManifest.xml #generated:57
+-keep class com.tencent.exmobwin.banner.DialogActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.tencent.exmobwin.banner.MobWINBrowserActivity { <init>(...); }
+
+# view res/layout/floatlayout.xml #generated:8
+# view res/layout/xmlayout.xml #generated:16
+-keep class com.tencent.exmobwin.banner.TAdView { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.tencent.mobwin.plugin.Codelayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.tencent.mobwin.plugin.Main { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.tencent.mobwin.plugin.Suslayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.tencent.mobwin.plugin.Xmlayout { <init>(...); }
+

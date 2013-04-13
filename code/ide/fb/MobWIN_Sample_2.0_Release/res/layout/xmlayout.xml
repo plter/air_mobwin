@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ns="http://mobwin.android.com/apk/res/com.tencent.mobwin.plugin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <!--
+		使用全路径来引用AdView
+		必须要加上"xmlns:mobwin="http://mobwin.android.com/apk/res/你的程序包名(在manifest.xml中声明)"
+		可设置背景色 mobwin:backColor 可设置小文本色 mobwin:textColor 可设置标题色
+		mobwin:titleColor 可设置背景透明度(0~255) mobwin:backAlpha
+    -->
+
+    <com.tencent.exmobwin.banner.TAdView
+        xmlns:mobwin="http://mobwin.android.com/apk/res/com.tencent.mobwin.plutin"
+        android:id="@+id/adview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        mobwin:textColor="#ffff3333"
+        mobwin:titleColor="#ff00aa00"
+        ns:backAlpha="180" >
+    </com.tencent.exmobwin.banner.TAdView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

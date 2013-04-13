@@ -1,0 +1,63 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tencent.mobwin.plugin"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 用于LBS SDK -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 用于连接Internet,拉取广告 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 用于识别网络接入点等信息,加快获取广告速度 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 用于识别WIFI网络等信息,加快获取广告速度 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 用于精确统计用户手机的系统信息 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 用于缓存广告对象,节省用户流量,并提高用户体验 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 有助于获取投放地域广告,提高广告与用户的相关性,提高广告点击率 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 有助于精准投放地域广告,提高广告与用户的相关性,提高广告点击率 -->
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+
+        <!-- appid -->
+        <meta-data
+            android:name="APP_ID"
+            android:value="037810BCE1D2260F32017643AC7D980C" />
+
+        <!-- 发布渠道(可选) -->
+        <meta-data
+            android:name="APP_CHANNEL"
+            android:value="QQ_CENTER" />
+
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Xmlayout"
+            android:configChanges="orientation" >
+        </activity>
+        <activity android:name=".Codelayout" >
+        </activity>
+        <activity
+            android:name=".Suslayout"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <!-- Mobwin所需要的Activity -->
+        <activity android:name="com.tencent.exmobwin.banner.MobWINBrowserActivity" >
+        </activity>
+        <activity
+            android:name="com.tencent.exmobwin.banner.DialogActivity"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+    </application>
+
+</manifest>

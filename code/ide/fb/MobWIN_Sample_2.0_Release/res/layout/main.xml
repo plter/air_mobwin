@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/xmlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="xml布局" />
+
+        <Button
+            android:id="@+id/codelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="代码布局" />
+
+        <Button
+            android:id="@+id/suslayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="悬浮布局" />
+    </LinearLayout>
+
+</ScrollView>
